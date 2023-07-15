@@ -5,7 +5,8 @@ const networkConfig = {
     name: "sepolia",
     vrfCoordinatorV2: "0x447Fd5eC2D383091C22B8549cb231a3bAD6d3fAf",
     entranceFee: ethers.utils.parseEther("0.01"),
-    gasLane: "",
+    gasLane:
+      "0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c",
     subscriptionId: "0",
     callbackGasLimit: "500000",
     interval: "30",
@@ -13,7 +14,8 @@ const networkConfig = {
   31337: {
     name: "hardhat",
     entranceFee: ethers.utils.parseEther("0.01"),
-    gasLane: "",
+    gasLane:
+      "0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c",
     callbackGasLimit: "500000",
     interval: "30",
   },
