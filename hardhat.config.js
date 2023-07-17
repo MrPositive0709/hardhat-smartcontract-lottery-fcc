@@ -1,18 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 require("hardhat-deploy");
-require("solidity-coverage");
-require("hardhat-gas-reporter");
-require("hardhat-contract-sizer");
 require("dotenv").config();
-require("@typechain/hardhat");
-require("@nomiclabs/hardhat-ethers");
-require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
-require("hardhat-gas-reporter");
-require("hardhat-deploy");
-require("@nomicfoundation/hardhat-ethers");
-require("hardhat-deploy-ethers");
-
 /** @type import('hardhat/config').HardhatUserConfig */
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL;
